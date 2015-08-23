@@ -13,3 +13,5 @@ sed -i "s/$2/$3/g" /etc/network/interfaces
 
 #set additional DNS
 sed -i "s/dns-nameserver 8.8.8.8 8.8.4.4/dns-nameserver 8.8.8.8 8.8.4.4 $4/g" /etc/network/interfaces
+
+reboot
